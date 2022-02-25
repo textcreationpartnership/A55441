@@ -1,0 +1,832 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Pope's comment upon the Ten Commandments</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1682</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 28 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A55441</idno>
+            <idno type="STC">Wing P2928</idno>
+            <idno type="STC">ESTC R8673</idno>
+            <idno type="EEBO-CITATION">13736877</idno>
+            <idno type="OCLC">ocm 13736877</idno>
+            <idno type="VID">101638</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A55441)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 101638)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 847:20)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Pope's comment upon the Ten Commandments</title>
+               </titleStmt>
+               <extent>12, [2] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for D. Hewmay,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1682.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Imprint from colophon.</note>
+                  <note>In verse.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catholic Church --  Humor.</term>
+               <term>Catholic Church --  Controversial literature.</term>
+               <term>Ten commandments --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-04</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2011-04</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="mock_commentary">
+            <pb facs="tcp:101638:1"/>
+            <pb n="1" facs="tcp:101638:1" rendition="simple:additions"/>
+            <head>THE <hi>Pope's Comment</hi> UPON THE TEN Commandments.</head>
+            <div type="preface">
+               <head>The PREFACE.</head>
+               <l>THere's one LAWGIVER able to deſtroy,</l>
+               <l>But ſave <hi>Believers</hi> in Eternal JOY.</l>
+               <l>The Words which CHRIST hath ſpoken ſhall us judge,</l>
+               <l>And from Gods Laws his JUDGMENTS will not budge.</l>
+               <l>
+                  <hi>Popes</hi> make LAWGIVERS new in every Age,</l>
+               <l>Who multiply new LAWS upon the <hi>Stage.</hi>
+               </l>
+               <l>But this <hi>Diſtinction</hi> ſhews they <hi>diſagree,</hi>
+               </l>
+               <l>They all can <hi>kill,</hi> yet none can <hi>ſave</hi> but HE.</l>
+               <l>God's <hi>Law</hi> is <hi>perfect,</hi> Mens Laws are not ſo;</l>
+               <l>God's Laws are <hi>juſt,</hi> whether to <hi>Friend,</hi> or <hi>Foe.</hi>
+               </l>
+               <l>God's Law (once made) for ever doth <hi>endure?</hi>
+               </l>
+               <l>Mens Laws repeal'd, new made, and never <hi>ſure.</hi>
+               </l>
+            </div>
+            <div n="1" type="commandment">
+               <head>Commandment I.</head>
+               <l>GOd's Laws allow no GODS but <hi>Onely-One;</hi>
+               </l>
+               <l>
+                  <hi>Popes</hi> make more <hi>Gods</hi> than <hi>Stars,</hi> or <hi>Days</hi> are known.</l>
+               <l>Yea, <hi>Sun,</hi> and <hi>Moon,</hi> and <hi>Stars</hi> adored be;</l>
+               <l>Is there a DAY from <hi>Adorat'on</hi> free?</l>
+               <l>
+                  <pb n="2" facs="tcp:101638:2"/>
+                  <hi>Popes</hi> ALMANACKS are cloyed with Red Names,</l>
+               <l>Which (thus <hi>ador'd</hi>) their VOTARIES enflames:</l>
+               <l>Although (already) Places are ſo ſcant,</l>
+               <l>SIMON and JUDE they crowd in <hi>One,</hi> for want.</l>
+               <l>All <hi>Saints</hi> together jumbled in one <hi>Day;</hi>
+               </l>
+               <l>All Souls another, unto whom they pray.</l>
+               <l>Yet <hi>They</hi> (poor fools) commit all ſins to have</l>
+               <l>A <hi>canonized</hi> name when in the <hi>Grave.</hi>
+               </l>
+               <l>God-Fathers, and God-Mothers, Biſhops, Kings,</l>
+               <l>Images, Pictures, Croſſes, and ſuch things:</l>
+               <l>
+                  <hi>Mother</hi> of Chriſt's four Brothers; Siſters all;</l>
+               <l>
+                  <hi>Popes</hi> (VIRGIN-QUEEN of HEAVEN) her inſtall.</l>
+               <l>Who next but MOTHER CHURCH? that <hi>Scarlet</hi> WHORE</l>
+               <l>Catholick, Common, Churches Sons adore:</l>
+               <l>Yea FATHERS of the <hi>Church</hi> (of the fame <hi>Blood;</hi>)</l>
+               <l>And HUSBANDS (too) of that inceſtuous <hi>Brood</hi>
+               </l>
+               <l>But that which is than all the reſt moſt ſtrange</l>
+               <l>THEMSELVES they call the <hi>Church,</hi> and Sexes change.</l>
+               <l>Though the ſublimeſt <hi>Church,</hi> and <hi>God</hi> of all,</l>
+               <l>Is there GOD-POPE, and ev'ry <hi>CARDINAL:</hi>
+               </l>
+               <l>BELL-CHURCHES alſo built of <hi>Brick</hi> and Stone;</l>
+               <l>Thus (when they pleaſe) they <hi>All,</hi> or <hi>Any</hi> own.</l>
+               <l>But how came POPES this <hi>Power</hi> all to have?</l>
+               <l>Forſooth! their FATHER-DEVIL them it gave.</l>
+               <l>The <hi>Devil</hi> offer'd <hi>Chriſt</hi> once to beſtow,</l>
+               <l>All <hi>Kingdoms</hi> (with their <hi>Glories</hi>) here below,</l>
+               <l>Which he refus'd: But ſince to <hi>Popes</hi> are given</l>
+               <l>All <hi>Kingdoms</hi> of this <hi>World,</hi> and KEY of <hi>Heaven.</hi>
+               </l>
+               <l>Alas! CHRIST knew not how to cringe and bow;</l>
+               <l>POPES can do <hi>All,</hi> and all <hi>adore</hi> them now.</l>
+               <l>Poor Soul! <hi>Chriſt</hi> had not Pride enough to bring</l>
+               <l>MAJESTY due unto one earthly KING.</l>
+               <l>POPES give more <hi>Titles, Glories,</hi> in one <hi>Day,</hi>
+               </l>
+               <l>To all thoſe <hi>Kings</hi> who only them <hi>obey,</hi>
+               </l>
+               <l>Than CHRIST <hi>Himſelf</hi> did ever here <hi>aſſume;</hi>
+               </l>
+               <l>And over <hi>Kings,</hi> or <hi>Caeſars,</hi> did <hi>preſume.</hi>
+               </l>
+            </div>
+            <div n="2" type="commandment">
+               <pb n="3" facs="tcp:101638:2"/>
+               <head>Commandment II.</head>
+               <l>GOD blaſts all <hi>Worſhips</hi> but his own with <hi>Evils,</hi>
+               </l>
+               <l>POPES command all to <hi>Angels, Men,</hi> and <hi>Devils.</hi>
+               </l>
+               <l>
+                  <hi>Popes</hi> make both <hi>Gods</hi> and <hi>Worſhips</hi> more and more;</l>
+               <l>
+                  <hi>Popes</hi> make GODMAKERS to increaſe their ſtore.</l>
+               <l>
+                  <hi>Popes</hi> make PREISTS, BISHOPS, CARDINALS; and <hi>They</hi>
+               </l>
+               <l>Make WAFER GODS by <hi>Thouſands</hi> in a <hi>Day.</hi>
+               </l>
+               <l>Thoſe IDOL-GODS muſt all <hi>adored</hi> be;</l>
+               <l>Yea, WAFER-FLESH, and BLOOD (unſeen) muſt ſee.</l>
+               <l>A <hi>Taſk</hi> too hard for <hi>Bal'ams</hi> ASS t'endure;</l>
+               <l>Though <hi>God</hi> gives <hi>Eyes,</hi> men have no <hi>ſeeing,</hi> ſure.</l>
+               <l>Saints worſhip GOD in <hi>Pſalms,</hi> and <hi>Hymns,</hi> and <hi>Songs:</hi>
+               </l>
+               <l>They in all <hi>Geſtures;</hi> alſo unknown <hi>Tongues.</hi>
+               </l>
+               <l>And when they come their PA-GOD-POPE before,</l>
+               <l>KINGS kneel to <hi>kiſs</hi> the SLIPPER of the <hi>whore:</hi>
+               </l>
+               <l>Drunk with the <hi>Wine</hi> of <hi>Fornication;</hi>
+               </l>
+               <l>
+                  <hi>Kings</hi> reel into their own <hi>Damnation.</hi>
+               </l>
+               <l>Their WAFER-GODS with <hi>Latin-Charms</hi> they hallow,</l>
+               <l>Which <hi>People</hi> (thouſands) in a <hi>Moment</hi> ſwallow.</l>
+               <l>The <hi>Three-crown'd-little</hi>-HORN here doth enter;</l>
+               <l>To change both <hi>Times,</hi> and <hi>Laws</hi> he doth adventure</l>
+               <l>Blaſpheming God, and wearing out the <hi>Saints;</hi>
+               </l>
+               <l>The WITNESSES to <hi>kill</hi> he never faints:</l>
+               <l>And in the <hi>Streets</hi> their <hi>Corps</hi> lye in dead <hi>Letter,</hi>
+               </l>
+               <l>The NATIONS ſee them, but are not the <hi>better.</hi>
+               </l>
+               <l>
+                  <hi>Mornings</hi> and <hi>Evenings</hi> are their WITNESS read,</l>
+               <l>But <hi>Hearers</hi> (like the WITNESSES) are dead.</l>
+               <l>For though Gods <hi>Doctrin's</hi> read once, and agen,</l>
+               <l>They hear the <hi>Word</hi> of <hi>God,</hi> but <hi>obey</hi> MEN.</l>
+               <l>For with his MARK the BEAST ſo domineers,</l>
+               <l>That all Gods words paſs thorough both the Ears.</l>
+               <l>When PRIESTS (found perjur'd <hi>Traytors</hi>) hanged are,</l>
+               <l>They worſhip RELIQUES of their <hi>Blood</hi> and <hi>Hair:</hi>
+               </l>
+               <l>
+                  <hi>Cart-loads</hi> of CROSSES, Maries <hi>Gown</hi> of <hi>Silk;</hi>
+               </l>
+               <l>
+                  <hi>Rags, Nails, Bones, Stones,</hi> &amp; <hi>Maries</hi> VIRGIN-MILK.</l>
+               <l>
+                  <pb n="4" facs="tcp:101638:3"/>'Twould <hi>Horſes</hi> tire, <hi>Legions</hi> of <hi>Saints</hi> to read;</l>
+               <l>With all their IDOL-PRAYERS to the Dead:</l>
+               <l>Yet that they may their <hi>Time</hi> in <hi>Worſhip</hi> ſpend,</l>
+               <l>Their BEADS and CROSSES round can have no <hi>End.</hi>
+               </l>
+               <l>IDOLATRY, God pardons not a whit,</l>
+               <l>But every <hi>Eye,</hi> and <hi>Ear</hi> makes <hi>Judge</hi> of it:</l>
+               <l>Yea every <hi>Hand</hi> is EXECUTIONER;</l>
+               <l>God bids no <hi>wife,</hi> nor <hi>Son,</hi> nor <hi>Daughter</hi> ſpare.</l>
+               <l>
+                  <hi>Kings, Princes, Prophets, Nations,</hi> muſt not ſcape,</l>
+               <l>God makes it as a VINTAGE of the <hi>Grape.</hi>
+               </l>
+               <l>Five <hi>Midian-Kings,</hi> and <hi>Kingdoms</hi> were <hi>deſtroyed,</hi>
+               </l>
+               <l>And PHINEAS his <hi>Prieſthood</hi> ſo <hi>enjoyed.</hi>
+               </l>
+               <l>Yea, two and thirty <hi>Kings,</hi> and <hi>Nations,</hi>
+               </l>
+               <l>Were all deſtroyed with their <hi>Stations.</hi>
+               </l>
+               <l>Who are they then more <hi>merciful</hi> than GOD?</l>
+               <l>They ſpill the Child, becauſe they ſpare the ROD:</l>
+               <l>Chuſing IDOLATERS to <hi>rule,</hi> and kill,</l>
+               <l>All NON-IDOLATERS at their own <hi>Will.</hi>
+               </l>
+               <l>GOD (therefore) ſends IDOLATERS to <hi>kill</hi> us,</l>
+               <l>Becauſe we <hi>kill</hi> not THEM as <hi>God</hi> doth <hi>will</hi> us.</l>
+            </div>
+            <div n="3" type="commandment">
+               <head>Commandment III.</head>
+               <l>GODS NAME IN VAIN; <hi>Chriſt</hi> bids SWEAR NOT AT ALL:</l>
+               <l>POPES command ALL to ſwear, both <hi>great</hi> and <hi>ſmall;</hi>
+               </l>
+               <l>
+                  <hi>Swear</hi> muſt both <hi>rich</hi> and <hi>poor;</hi> both <hi>bond</hi> and
+<hi>free,</hi>
+               </l>
+               <l>None muſt eſcape (this) MARK of CRUELTIE.</l>
+               <l>With the right hand held up this MARK is took;</l>
+               <l>Swearing (unknown) <hi>Contents,</hi> and <hi>kiſs</hi> the BOOK:</l>
+               <l>'Tis the BEASTS <hi>Mark,</hi> the fatal MARK of HELL,</l>
+               <l>Without which none may freely <hi>buy,</hi> or <hi>ſell.</hi>
+               </l>
+               <l>On this <hi>Beaſt's</hi> MARK are <hi>founded</hi> all their LAWS;</l>
+               <l>This Beaſt's MARK alſo WORSHIP overaws</l>
+               <l>All <hi>Popiſh-Courts</hi> have OATHS at their <hi>command;</hi>
+               </l>
+               <l>Without an <hi>Oath</hi> no POPISH-COURT can ſtand.</l>
+               <l>In <hi>Popiſh-Courts</hi> no JUSTICE can be had,</l>
+               <l>But what with OATHS, and SACRAMENTS are clad.</l>
+               <l>
+                  <pb n="5" facs="tcp:101638:3"/>And though by OATHS <hi>Conſpiracies</hi> are made</l>
+               <l>Yet they allow FALSE-SWEARING as their <hi>Trade.</hi>
+               </l>
+               <l>For ſo <hi>Demetrius</hi>-Art comes in by Stealth,</l>
+               <l>By CRAFT of <hi>Oaths</hi> they know they get their <hi>Wealth.</hi>
+               </l>
+               <l>All PAPISTS caſt away <hi>Gods Laws,</hi> and then</l>
+               <l>They <hi>ſwear,</hi> and only <hi>Keep</hi> the Laws of <hi>Men.</hi>
+               </l>
+               <l>Can men believe for this the LAND muſt <hi>mourn?</hi>
+               </l>
+               <l>Yea muſt (for OATHS) lie <hi>waſt</hi> and all <hi>forlorn?</hi>
+               </l>
+               <l>O brave-ſoul'd-QUAKERS! who all OATHS withſtood;</l>
+               <l>In ſpight of <hi>Laws,</hi> of <hi>Priſons, Famine, Blood:</hi>
+               </l>
+               <l>And yet can live in <hi>Peace,</hi> and <hi>Trade,</hi> and gain,</l>
+               <l>Thus proving SWEARING-OATHS to be in vain,</l>
+               <l>He that will <hi>ſwear,</hi> will <hi>lie</hi> (the <hi>Proverb</hi> ſaith)</l>
+               <l>He that will <hi>lie,</hi> will <hi>ſwear</hi> (both of like <hi>Faith.</hi>)</l>
+               <l>What's more than YEA, or NAY, <hi>Chriſt</hi> ſaith is EVIL;</l>
+               <l>Whence comes all SWEARING then but from the DEVIL?</l>
+               <l>Us'd to inſnare the CONSCIENCE of the <hi>Juſt,</hi>
+               </l>
+               <l>To <hi>plot</hi> all TREASONS, or deceive all TRUST.</l>
+            </div>
+            <div n="4" type="commandment">
+               <head>Commandment IV.</head>
+               <l>GOds SABBATH is the SEVENTH-DAY of <hi>Reſt,</hi>
+               </l>
+               <l>Which GOD did <hi>hallow</hi> after SIX, and <hi>bleſt.</hi>
+               </l>
+               <l>POPES (more than all the <hi>Six</hi>) the SEVENTH <hi>prophane,</hi>
+               </l>
+               <l>And (in its ſtead) the FIRST-DAY do <hi>ordain.</hi>
+               </l>
+               <l>Reſt (<hi>God</hi> commands) when we have labour'd SIX;</l>
+               <l>
+                  <hi>Popes</hi> do (before all <hi>Labour</hi>) REST prefix.</l>
+               <l>
+                  <hi>God</hi> makes the DAY from <hi>Even</hi> unto <hi>Night;</hi>
+               </l>
+               <l>
+                  <hi>Popes</hi> from the <hi>Morning</hi> to next Morning-Light.</l>
+               <l>GOD links ſev'n dayes in Weeks (as in a Chain;)</l>
+               <l>POPES break all <hi>Times,</hi> and <hi>Weeks,</hi> and <hi>Links</hi> as vain.</l>
+               <l>Men therefore bluſh not to blaſpheme, and ſay,</l>
+               <l>CHRIST was the CHANGLING, &amp; did <hi>change</hi> the DAY</l>
+               <l>Thus (breaking Gods own Law) make CHRIST a <hi>Sinner,</hi>
+               </l>
+               <l>And of all SABBATH-BREAKING the <hi>Beginner.</hi>
+               </l>
+               <l>Yea, becauſe <hi>Chriſt</hi> of <hi>Sabbath-Day</hi> is LORD,</l>
+               <l>To change it therefore he doth thus <hi>accord:</hi>
+               </l>
+               <l>
+                  <pb n="6" facs="tcp:101638:4"/>Suppoſing him (as PRODIGALS) to ſpend,</l>
+               <l>Or loſe, or change his BIRTHRIGHT to no end.</l>
+               <l>The <hi>Father</hi> (thus) and <hi>Son</hi> are ſet at <hi>Odds,</hi>
+               </l>
+               <l>(As <hi>Heathens</hi> fancy of their IDOL-GODS:)</l>
+               <l>As if the <hi>Father</hi> ended with <hi>Creation,</hi>
+               </l>
+               <l>Or <hi>Ieſus</hi> were confined to <hi>Salvation:</hi>
+               </l>
+               <l>And both of THEM at ſtrife which <hi>greater</hi> were,</l>
+               <l>Or which of THEM did beſt <hi>deſerve</hi> the CHAIR.</l>
+               <l>If all theſe fail, then every day is <hi>holy,</hi>
+               </l>
+               <l>Which to make good, their CHURCH maintain this <hi>Folly.</hi>
+               </l>
+               <l>No wonder then their <hi>Almanacks</hi> they <hi>gild;</hi>
+               </l>
+               <l>With <hi>glutted</hi> Names of <hi>Saints</hi> and <hi>Angels</hi> fill'd.</l>
+               <l>Or elſe their <hi>Wits</hi> muſt (with the WORLD) go <hi>round,</hi>
+               </l>
+               <l>And ſo ONE <hi>Day</hi> is either <hi>loſt,</hi> or <hi>found.</hi>
+               </l>
+               <l>
+                  <hi>Fools</hi> (as they are) not heeding how the SUN</l>
+               <l>Doth carry on the DAY ſince he begun.</l>
+               <l>Here ſome do <hi>Joſhuahs-Sun</hi> (ſlily) <hi>object;</hi>
+               </l>
+               <l>Others on <hi>Hezekiahs</hi> do <hi>reflect:</hi>
+               </l>
+               <l>But <hi>Ioſhuahs</hi> SOLSTICE was <hi>computed</hi> then,</l>
+               <l>And <hi>Hezekiahs</hi> Sun turn'd back agen.</l>
+               <l>For <hi>Prophets</hi> (with the <hi>People</hi>) the Suns <hi>Race</hi>
+               </l>
+               <l>Did ſo <hi>direct,</hi> that SABBATHS <hi>keep</hi> their <hi>place;</hi>
+               </l>
+               <l>But then (at laſt) who can tell which is which?</l>
+               <l>Though <hi>Jews,</hi> and <hi>Turks,</hi> and <hi>Popes</hi> may <hi>unbewitch.</hi>
+               </l>
+               <l>They all three witneſs which of theſe ſhould ſtand,</l>
+               <l>Since each doth bring the SEVENTH-DAY to hand.</l>
+               <l>TURKS keep the SIXTH, prove SEVENTH not yet come:</l>
+               <l>POPES keep the FIRST, the <hi>Seventh's</hi> loſt at <hi>Rome.</hi>
+               </l>
+               <l>Thus JEWS (alone) do ſtill the SEVENTH. <hi>keep.</hi>
+               </l>
+               <l>A PETER did between too SOLDIERS <hi>ſleep;</hi>
+               </l>
+               <l>And CHRIST between two THIEVES was crucified;</l>
+               <l>So 'twixt the SIXTH &amp; FIRST, the SEVENTH'S decried.</l>
+            </div>
+            <div n="5" type="commandment">
+               <head>Commandment V.</head>
+               <l>WIth PROMISE <hi>God</hi> hath crown'd this FIFTH <hi>Command,</hi>
+               </l>
+               <l>As theſe few <hi>Lines</hi> may give to underſtand.</l>
+               <l>
+                  <pb n="7" facs="tcp:101638:4"/>Honour thy PARENTS all with HONOUR due,</l>
+               <l>That in thy <hi>Land</hi> thy <hi>Days</hi> may not be few.</l>
+               <l>The POPE cries CORBAN, ſerve the <hi>Mother-Church,</hi>
+               </l>
+               <l>And give her ALL; leave <hi>Parents</hi> in the <hi>Lurch.</hi>
+               </l>
+               <l>But yet of <hi>Parents</hi> all GOD is the FIRST,</l>
+               <l>SONS that <hi>obey</hi> not him, are Sons <hi>accurſt.</hi>
+               </l>
+               <l>For HE is <hi>Parent</hi> of all <hi>Parents;</hi> HE</l>
+               <l>Before all <hi>Parents</hi> muſt <hi>obeyed</hi> be.</l>
+               <l>
+                  <hi>Father</hi> of <hi>Fathers; King</hi> of <hi>Kings</hi> moſt high;</l>
+               <l>GOD <hi>lives</hi> for <hi>ever,</hi> but all MEN muſt <hi>die.</hi>
+               </l>
+               <l>And yet the <hi>Pope</hi> doth proudly <hi>arrogate,</hi>
+               </l>
+               <l>Hee's GOD of GODS; at leaſt Gods SURROGATE:</l>
+               <l>And by Chriſts <hi>Rule</hi> greateſt to be of <hi>All,</hi>
+               </l>
+               <l>
+                  <hi>Servant</hi> of <hi>Servants</hi> He himſelf doth call.</l>
+               <l>He takes the <hi>Title</hi> of a curſed CHAM,</l>
+               <l>He acts the WOLF in <hi>Title</hi> of a LAMB.</l>
+               <l>The <hi>Son</hi> of MARY was both GOD and MAN;</l>
+               <l>The POPE is neither, is He DEVIL then?</l>
+               <l>If <hi>Kings</hi> and <hi>Parents</hi> then will be <hi>obey'd,</hi>
+               </l>
+               <l>Let them ſerve God themſelves, or be <hi>afraid.</hi>
+               </l>
+               <l>If SONS and SUBJECTS know not which t'obey,</l>
+               <l>Ask <hi>Conſcience</hi> GOD or MAN, which will it ſay?</l>
+            </div>
+            <div n="6" type="commandment">
+               <head>Commandment VI.</head>
+               <l>THou ſhalt not commit MURDER (ſaith the <hi>Lord:</hi>)</l>
+               <l>But I may (ſaith the POPE) I have the <hi>Sword.</hi>
+               </l>
+               <l>'Tis the Prieſts <hi>Office</hi> for to <hi>kill,</hi> and <hi>ſlay</hi>
+               </l>
+               <l>Of <hi>Sacrifices</hi> Thouſands in a <hi>Day.</hi>
+               </l>
+               <l>By <hi>Jacobs</hi> Sons <hi>Sechem,</hi> and Sons all ſlain:</l>
+               <l>
+                  <hi>Meroz</hi> was curſt that wore the <hi>Sword</hi> in vain.</l>
+               <l>The <hi>Levites</hi> Execution did with SWORD,</l>
+               <l>On <hi>Brethren,</hi> and on <hi>Friends</hi> at MOSES Word.</l>
+               <l>How ſhould we HERETICKS <hi>ſuppreſs</hi> if we</l>
+               <l>Did not uſe <hi>Poiſons, Swords,</hi> and <hi>Treacherie?</hi>
+               </l>
+               <l>
+                  <pb n="8" facs="tcp:101638:5"/>Were't not for <hi>Oaths,</hi> and <hi>Swords,</hi> and penal <hi>Laws,</hi>
+               </l>
+               <l>Our CHURCH would ſtarve with <hi>Magpies</hi> &amp; <hi>Jackdaws,</hi>
+               </l>
+               <l>And <hi>Church-men</hi> might (as idle) go pick <hi>Straws.</hi>
+               </l>
+               <l>GOD ſaith his <hi>Blood</hi> that ſhed Mans ſhall be ſhed;</l>
+               <l>Both POPES and KINGS do pardon without <hi>Dread.</hi>
+               </l>
+               <l>But this <hi>Command</hi> brings JUSTICE to the <hi>Bar;</hi>
+               </l>
+               <l>Did Gods <hi>Command</hi> Gods <hi>Juſtice</hi> ever <hi>marr?</hi>
+               </l>
+               <l>To <hi>reconcile</hi> them both, the SCOPE comes in,</l>
+               <l>Whether it were for GOODNESS, or for SIN.</l>
+               <l>'Tis <hi>ſin</hi> to <hi>do</hi> what GOD doth once <hi>forbid;</hi>
+               </l>
+               <l>'Tis <hi>Goodneſs</hi> to <hi>obey</hi> what <hi>God</hi> doth <hi>bid.</hi>
+               </l>
+               <l>'Tis JUSTICE then whom <hi>God</hi> commands to <hi>kill;</hi>
+               </l>
+               <l>'Tis MURDER (without God) Mans blood to <hi>ſpill.</hi>
+               </l>
+               <l>If <hi>Princes</hi> bid us murder, kill, and ſlay,</l>
+               <l>The Queſt'on then is new which to <hi>obey:</hi>
+               </l>
+               <l>SAINTS, or IDOLATERS, the OBJECTS be,</l>
+               <l>Which we may <hi>kill,</hi> or we may let go <hi>free.</hi>
+               </l>
+               <l>GOD <hi>kills</hi> IDOLATERS, of SAINTS takes <hi>care;</hi>
+               </l>
+               <l>POPES <hi>kill</hi> all <hi>Saints, Idolaters</hi> they <hi>ſpare.</hi>
+               </l>
+            </div>
+            <div n="7" type="commandment">
+               <head>Commandment VII.</head>
+               <l>ADULTERY forbidden is by God;</l>
+               <l>And FORNICATION muſt feel the <hi>Rod.</hi>
+               </l>
+               <l>Laſciv'ous <hi>Words,</hi> and <hi>Geſtures, Looks</hi> of <hi>Eye,</hi>
+               </l>
+               <l>Gods written-Word doth in the <hi>Heart</hi> eſpie.</l>
+               <l>
+                  <hi>Unvoluntary</hi> DREAMS do Man <hi>defile;</hi>
+               </l>
+               <l>How pure is <hi>God!</hi> How impure <hi>Man</hi> and vile!</l>
+               <l>All <hi>Luſt</hi> (therefore) and <hi>Sin</hi> for to prevent,</l>
+               <l>God ordains MARRIAGE ſufficient.</l>
+               <l>But <hi>Popes</hi> more holy far, and far more pure,</l>
+               <l>All BIBLES curſe, and will not them endure.</l>
+               <l>They forſwear <hi>Marriage,</hi> as moſt prophane,</l>
+               <l>
+                  <hi>Catholick</hi> STEWS they rather do maintain.</l>
+               <l>Yet for the Vulgar LAITY ſuch <hi>ſtuff</hi>
+               </l>
+               <l>As ſolemn <hi>Marriage</hi> is good enough:</l>
+               <l>
+                  <pb n="9" facs="tcp:101638:5"/>And for them made a holy SACRAMENT,</l>
+               <l>Whence PRIESTS (as one of ſeven) gather Rent.</l>
+               <l>
+                  <hi>Licenſes, Weddings, Child-beds, Chriſtenings,</hi>
+               </l>
+               <l>
+                  <hi>Churches, Whoredoms, Divorces</hi> profit brings.</l>
+               <l>But <hi>Popes, Prieſts, Cardinals,</hi> and <hi>Orders</hi> holy,</l>
+               <l>Forſwear all MARRIAGES as coſtly <hi>Folly.</hi>
+               </l>
+               <l>Theirs is a far more <hi>frugal</hi> SACRAMENT,</l>
+               <l>They ſwear a ſingle Life of more <hi>Content.</hi>
+               </l>
+               <l>Their LUST they <hi>ſatisfie</hi> with little <hi>Coſt;</hi>
+               </l>
+               <l>Without a TAMAR <hi>Onans Seed</hi> is <hi>loſt.</hi>
+               </l>
+               <l>They ſometimes get into a NUNNERY,</l>
+               <l>And there increaſe their <hi>ſworn</hi> VIRGINITY.</l>
+               <l>By which means there's no want of VIRGINS <hi>Milk,</hi>
+               </l>
+               <l>To be ador'd with <hi>Maries</hi> GOWN of SILK.</l>
+               <l>They ſometimes WIVES <hi>abſolve,</hi> and then they <hi>meet</hi>
+               </l>
+               <l>Two SACRAMENTS together in a SHEET.</l>
+               <l>Sometimes young BOYS and GIRLS they <hi>ſanctify</hi>
+               </l>
+               <l>In exerciſing their VIRGINITY.</l>
+               <l>And yet to be more <hi>chaſt</hi> and <hi>Innocent,</hi>
+               </l>
+               <l>Their <hi>Chaſtity</hi>'s on harmleſs TURKEYS <hi>ſpent.</hi>
+               </l>
+               <l>Now to conclude, <hi>God</hi> doth allow DEGREES</l>
+               <l>Of keeping this COMMAND, and they are theſe.</l>
+               <l>Firſt (which is rare) a <hi>Life</hi> ANGELICAL,</l>
+               <l>An EUNUCH (truly) EVANGELICAL;</l>
+               <l>TO CHRIST an EUNUCH <hi>wedded</hi> as was PAUL.</l>
+               <l>Next MAN and WIFE whom GOD hath join'd in ONE,</l>
+               <l>As was in PARADISE-PERFECTION.</l>
+               <l>Laſtly POLYGAMY Gods Word <hi>connives,</hi>
+               </l>
+               <l>Only to HUSBANDS; never unto WIVES:</l>
+               <l>Unleſs the Husband's <hi>gone,</hi> or Husband's <hi>dead,</hi>
+               </l>
+               <l>Then WIVES are given to another <hi>Bed.</hi>
+               </l>
+               <l>All other <hi>Mixture</hi> (painted ne'er ſo well)</l>
+               <l>If they <hi>repent</hi> not, <hi>God</hi> condemns to HELL.</l>
+               <l>All White-ſheet, Money Pennance cannot hide</l>
+               <l>Black SODOMY, nor WHOREDOM of the <hi>Bride.</hi>
+               </l>
+               <l>Gods holy Eye will pardon no ſuch <hi>Evil,</hi>
+               </l>
+               <l>They all came (from) and muſt go (to) the <hi>Devil.</hi>
+               </l>
+            </div>
+            <div n="8" type="commandment">
+               <pb n="10" facs="tcp:101638:6"/>
+               <head>Commandment VIII.</head>
+               <l>STeal not (ſaith GOD) unleſs <hi>five,</hi> or <hi>four</hi> fold</l>
+               <l>Thou ſhalt <hi>reſtore;</hi> if <hi>poor</hi> thou ſhalt be <hi>ſold.</hi>
+               </l>
+               <l>Tuſh (ſaith the POPE) all this is too much <hi>Pity,</hi>
+               </l>
+               <l>And that (the <hi>Proverb</hi> ſaith) will ſpoil the <hi>City.</hi>
+               </l>
+               <l>
+                  <hi>THIEVES</hi> (if they live) may live to <hi>ſteal</hi> again,</l>
+               <l>And ſo all rich Men gather <hi>Wealth</hi> in vain.</l>
+               <l>Hang up the <hi>Thief,</hi> then he can ſteal no more,</l>
+               <l>Let WIFE and CHILDREN beg from door to door.</l>
+               <l>Hang <hi>Thieves,</hi> confiſcate all their <hi>Goods</hi> to ME;</l>
+               <l>To terrifie, ſtarve their POSTERITY.</l>
+               <l>JEWS did but plunder <hi>Mutton, Beef,</hi> or <hi>Meal;</hi>
+               </l>
+               <l>Now <hi>Treaſures, Crowns,</hi> and <hi>Kingdoms</hi> men dare ſteal.</l>
+               <l>Rich men had rather LIFE than MONEY <hi>loſe;</hi>
+               </l>
+               <l>(If put to choice) they rather <hi>Death</hi> would <hi>chuſe.</hi>
+               </l>
+               <l>Beſides; this was the old way of the JEWS,</l>
+               <l>Which is not <hi>lawful</hi> (now) for us to <hi>uſe.</hi>
+               </l>
+               <l>
+                  <hi>Wealth</hi> anſwers <hi>All;</hi> GOD-MAMMON of this <hi>Life,</hi>
+               </l>
+               <l>For whom all KINGDOMS have a conſtant <hi>ſtrife.</hi>
+               </l>
+               <l>But if that Men do covet to obtain</l>
+               <l>Their OWN; and <hi>Thieves</hi> reſtore it back again;</l>
+               <l>They <hi>guilty</hi> are of the ſame THEFT as <hi>They,</hi>
+               </l>
+               <l>And both may hang together in a <hi>Day.</hi>
+               </l>
+               <l>The reaſon's plain, as all men now may ſee,</l>
+               <l>For THIEVES did <hi>ſteal</hi> from <hi>Them,</hi> and <hi>They</hi> from ME.</l>
+            </div>
+            <div n="9" type="commandment">
+               <head>Commandment IX.</head>
+               <l>GOD ſaith that thou <hi>falſe Witneſs</hi> ſhall not <hi>bear,</hi>
+               </l>
+               <l>Much leſs <hi>commands</hi> he any for to <hi>ſwear.</hi>
+               </l>
+               <l>
+                  <pb n="11" facs="tcp:101638:6"/>Such as the WITNESS is, ſuch is his WORD,</l>
+               <l>In ſpight of OATHS, of HECTORS, or the SWORD.</l>
+               <l>WITNESS can go no further than his <hi>Eye,</hi>
+               </l>
+               <l>Or <hi>Ear,</hi> if <hi>Tongues</hi> of <hi>Speakers</hi> do not <hi>lie.</hi>
+               </l>
+               <l>None are Gods WITNESSES who ſpeak not true;</l>
+               <l>LIES are but for the DEVIL, and his CREW.</l>
+               <l>Alas! how then could <hi>Popiſh-Plots</hi> take place,</l>
+               <l>If ſwearing LIES did not the TRUTH <hi>outface?</hi>
+               </l>
+               <l>Popes IRISH-EVIDENCE would be in <hi>vain,</hi>
+               </l>
+               <l>If ſwearing <hi>Lies</hi> could not thoſe Lies <hi>maintain.</hi>
+               </l>
+               <l>And they Ten Thouſand WITNESSES and Ten,</l>
+               <l>Have all in readineſs to ſwear like <hi>Men.</hi>
+               </l>
+               <l>Implicit <hi>Faith,</hi> and blind <hi>Obedience,</hi>
+               </l>
+               <l>And <hi>Merits</hi> of the CHURCH deprive their <hi>Senſe.</hi>
+               </l>
+               <l>MILLIONS there are that care not what they <hi>ſay,</hi>
+               </l>
+               <l>Or <hi>ſwear,</hi> or <hi>do,</hi> or <hi>ſuffer</hi> in a <hi>Day!</hi>
+               </l>
+               <l>Nay, how would JUDGES know what <hi>Courſe</hi> to <hi>ſteer,</hi>
+               </l>
+               <l>If ſwearing <hi>Lies</hi> in LAW refuſed were?</l>
+               <l>The POPE might all the <hi>Kingdoms</hi> gain by LAW,</l>
+               <l>Could <hi>He</hi> but all their Jurors <hi>over-awe.</hi>
+               </l>
+               <l>JEZEBEL <hi>Naboth</hi>'s Vineyard had not got,</l>
+               <l>Had <hi>She</hi> not BELIAL-WITNESS in the <hi>Plot.</hi>
+               </l>
+               <l>Diſſenters (thus) from CHRIST all others <hi>mock,</hi>
+               </l>
+               <l>And bring the POPES <hi>Diſſenters</hi> to the <hi>Block.</hi>
+               </l>
+            </div>
+            <div n="10" type="commandment">
+               <head>Commandment X.</head>
+               <l>THOU SHALT NOT COVET; 'tis the ROOT of EVIL;</l>
+               <l>It never came from GOD, but from the DEVIL.</l>
+               <l>Covet no Neighbours <hi>Servant, Houſe,</hi> nor <hi>Wife;</hi>
+               </l>
+               <l>Nor ought of his that may engender <hi>Strife.</hi>
+               </l>
+               <l>COVETOUSNESS, the DROPSY of the MIND;</l>
+               <l>They more <hi>deſire,</hi> and not <hi>enough</hi> can <hi>find.</hi>
+               </l>
+               <l>Though all they <hi>ask</hi> they <hi>have,</hi> yet not <hi>content;</hi>
+               </l>
+               <l>The Mind's unſatisfied; diſcontent.</l>
+               <l>
+                  <pb n="12" facs="tcp:101638:7"/>More WORLDS from <hi>Alexanders</hi> wiſh, <hi>debarr'd;</hi>
+               </l>
+               <l>King AHAB pin'd for <hi>Naboth</hi>'s <hi>Vineyard.</hi>
+               </l>
+               <l>That dumb GOD MAMMON living without <hi>Lungs.</hi>
+               </l>
+               <l>In rich mens <hi>Hearts,</hi> and gives to all men <hi>Tongues:</hi>
+               </l>
+               <l>A GOD that can do <hi>nought,</hi> and yet makes MEN</l>
+               <l>Do all things, which to write affrights my <hi>Pen.</hi>
+               </l>
+               <l>The <hi>Price</hi> of <hi>Souls</hi> (which they to make all even)</l>
+               <l>Join HELL (with <hi>Wealth</hi> to boot) to weigh down <hi>Heaven.</hi>
+               </l>
+               <l>FATHER of POPES, begetting CARDINALS,</l>
+               <l>And KINGS that are moſt <hi>rich,</hi> moſt <hi>happy</hi> calls.</l>
+               <l>Yet <hi>Skin</hi> for Skin (ſaith <hi>Satan</hi>) what men have</l>
+               <l>(If <hi>ſick</hi>) they freely give their <hi>Lives</hi> to <hi>ſave.</hi>
+               </l>
+               <l>But <hi>covetous</hi> (although in perfect <hi>Health</hi>)</l>
+               <l>Will rather part with LIFE, than part with WEALTH.</l>
+               <l>What <hi>profit</hi> (JESUS ſaith) the WORLD to <hi>gain,</hi>
+               </l>
+               <l>And ſo expoſe the SOUL to endleſs <hi>pain?</hi>
+               </l>
+               <l>POPES (to be ſure) <hi>agreement</hi> make with HELL,</l>
+               <l>And with the KEYS of HEAVEN live too well.</l>
+               <l>Yet to the GODLY <hi>God</hi> hath ever ſent,</l>
+               <l>Both FOOD and RAIMENT to their own <hi>Content.</hi>
+               </l>
+               <l>But what <hi>Content</hi> can proud POPES ever have,</l>
+               <l>Who ſeek all KINGS and KINGDOMS to <hi>enſlave?</hi>
+               </l>
+               <l>Who claim both HEAVEN, HELL, &amp; PURGATORY;</l>
+               <l>Yea, PARADISE, and all ſuppoſed GLORY,</l>
+               <l>Go on (ye mad-brain'd PAPISTS) boaſt your POPE,</l>
+               <l>'Twere well your TORMENTS ended in a ROPE.</l>
+               <epigraph>
+                  <q>Finis coronat opus.</q>
+               </epigraph>
+            </div>
+            <div type="parting_jibe">
+               <list>
+                  <label>DOMINUS DEUS NOSTER PAPA.</label>
+                  <item>
+                     <hi>Papiſt.</hi>
+                  </item>
+                  <label>DOMINUS DEUS NOSTER PASCHA.</label>
+                  <item>
+                     <hi>Proteſtant.</hi>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div type="appendix">
+            <pb facs="tcp:101638:7"/>
+            <head>AN APPENDIX OF THE Soveraign and Dreadful AUTHORITY OF THE BIBLE.</head>
+            <l>BY many <hi>Kings</hi> and <hi>Parliaments</hi> (in <hi>Print</hi>)</l>
+            <l>Are BIBLES publiſhed: To be a <hi>ſtint</hi>
+            </l>
+            <l>For all Mens ACTIONS, what to <hi>ſay,</hi> or do;</l>
+            <l>To learn what's (truly) <hi>wiſe,</hi> and <hi>good,</hi> and <hi>true.</hi>
+            </l>
+            <l>Here <hi>Kings,</hi> and <hi>Beggars</hi> learn SALVATION,</l>
+            <l>Or elſe are <hi>doomed</hi> to DAMNATION.</l>
+            <l>For <hi>God</hi> ſends ſtrong DELUSIONS to all thoſe,</l>
+            <l>Who LIES do <hi>love,</hi> and will Gods TRUTH <hi>oppoſe.</hi>
+            </l>
+            <l>All LAWS <hi>approved</hi> are, that with it <hi>join;</hi>
+            </l>
+            <l>All LAWS are <hi>void</hi> that from it ought <hi>purloin.</hi>
+            </l>
+            <l>For by this <hi>Word</hi> of <hi>God</hi> this WORLD is <hi>doom'd,</hi>
+            </l>
+            <l>When MEN, and Mens RECORDS are all <hi>intomb'd.</hi>
+            </l>
+            <l>In that great <hi>Day</hi> when POPES and KINGS ſhall call</l>
+            <l>To <hi>Mountains</hi> on their trembling <hi>Joints</hi> to fall.</l>
+            <l>The WORD of GOD for ever doth <hi>endure;</hi>
+            </l>
+            <l>The WORDS of Men are <hi>Changlings;</hi> never <hi>ſure.</hi>
+            </l>
+            <l>The WORD of GOD made <hi>Heaven, Earth,</hi> and <hi>Sea;</hi>
+            </l>
+            <l>When POPES, or KINGS, can make a <hi>Whale,</hi> or <hi>Flea;</hi>
+            </l>
+            <l>
+               <pb facs="tcp:101638:8" rendition="simple:additions"/>Then will I queſt'on whom I ought t'<hi>obey,</hi>
+            </l>
+            <l>Whether the <hi>Word</hi> of <hi>God,</hi> or what <hi>Men</hi> ſay.</l>
+            <l>
+               <hi>God's</hi> WORD ſo <hi>perfect,</hi> that it makes a <hi>Man</hi>
+            </l>
+            <l>Perfect to all good <hi>Works</hi> which nought elſe can.</l>
+            <l>
+               <hi>Gods</hi> WORD ſo <hi>perfect,</hi> none may to it <hi>add,</hi>
+            </l>
+            <l>Nor yet <hi>diminiſh;</hi> for both GOD <hi>forbad.</hi>
+            </l>
+            <l>He that doth <hi>add,</hi> PLAGUES to him <hi>added</hi> be;</l>
+            <l>And he that takes away no LIFE ſhall ſee.</l>
+            <l>No MEN, nor ANGELS, other <hi>Word</hi> may <hi>preach;</hi>
+            </l>
+            <l>Or elſe <hi>accurſed</hi> be, that ſo will <hi>teach.</hi>
+            </l>
+            <l>What TRAITORS then are <hi>They</hi> who without SHAME,</l>
+            <l>Do <hi>preach</hi> DAMNATION to anothers BLAME?</l>
+            <l>Who act INJUSTICE with ſo high a <hi>Hand,</hi>
+            </l>
+            <l>As if INJUSTICE were by <hi>Gods</hi> COMMAND.</l>
+            <l>When <hi>Treaſons, Murders, Plots,</hi> and <hi>Perjuries;</hi>
+            </l>
+            <l>When LIES muſt paſs for TRUTH, and <hi>Truth</hi> for <hi>Lies:</hi>
+            </l>
+            <l>When MASSACRES go on in MASQUERADE,</l>
+            <l>As if all <hi>tolerated</hi> in a SHADE;</l>
+            <l>Then curſt are THEY who without <hi>Fear,</hi> and <hi>Dread,</hi>
+            </l>
+            <l>Againſt the WORD of GOD dare <hi>act,</hi> or <hi>plead.</hi>
+            </l>
+            <epigraph>
+               <q>
+                  <p>
+                     <hi>Contra SCRIPTURAS nemo CHRISTIANUS.</hi>
+                  </p>
+                  <bibl>Aug.</bibl>
+               </q>
+               <q>
+                  <hi>Magna eſt VERITAS, &amp; praevalebit.</hi>
+               </q>
+               <q>
+                  <lg>
+                     <l>As the great SHIBBOLETH the BIBLE is,</l>
+                     <l>For CHRIST to <hi>try</hi> who are, and are not HIS.</l>
+                  </lg>
+                  <bibl>
+                     <hi>Judg.</hi> 12.6.</bibl> 
+               </q>
+            </epigraph>
+         </div>
+         <div type="colophon">
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>D. Hewmay.</hi> 1682.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
